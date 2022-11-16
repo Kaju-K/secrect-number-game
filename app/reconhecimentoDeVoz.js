@@ -11,7 +11,7 @@ recognition.start()
 recognition.addEventListener("result", onSpeak)
 
 function onSpeak(e) {
-    const chute = e.results[0][0].transcript
+    const chute = e.results[0][0].transcript.replace("- ", "-")
     exibeChuteNaTela(chute)
     validaChute(chute)
 }
