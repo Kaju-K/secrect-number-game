@@ -1,5 +1,5 @@
 const menorValor = 0
-const maiorValor = 10
+const maiorValor = 1
 
 const elementoMenorValor = document.getElementById("menor-valor")
 const elementoMaiorValor = document.getElementById("maior-valor")
